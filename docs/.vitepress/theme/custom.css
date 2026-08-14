@@ -1,0 +1,15 @@
+.VPNavBarMenuLink[href$='/plugins/stock-funds-extend'],
+.VPNavScreenMenuLink[href$='/plugins/stock-funds-extend'] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.VPNavBarMenuLink[href$='/plugins/stock-funds-extend']::before,
+.VPNavScreenMenuLink[href$='/plugins/stock-funds-extend']::before {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background: url('./assets/stock-funds-extend-logo.png') center / contain no-repeat;
+  content: '';
+}
