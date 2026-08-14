@@ -10,6 +10,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '股票基金管家', link: '/plugins/stock-funds-extend' },
       { text: '插件', link: '/plugins/' },
       { text: '更新日志', link: '/changelog/' }
     ],

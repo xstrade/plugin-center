@@ -31,4 +31,6 @@
 
 ## 更新日志
 
-查看[股票基金管家更新日志](/changelog/stock-funds-extend)。
+<!--@include: ../changelog/stock-funds-extend.md#latest-->
+
+查看[完整更新日志](/changelog/stock-funds-extend)。
