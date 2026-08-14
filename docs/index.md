@@ -7,8 +7,8 @@ hero:
   tagline: 集中查看插件介绍、安装方式、下载入口和版本变化。
   actions:
     - theme: brand
-      text: 查看插件
-      link: /plugins/
+      text: 下载股票基金管家
+      link: /plugins/stock-funds-extend
     - theme: alt
       text: 更新日志
       link: /changelog/
@@ -24,4 +24,4 @@ features:
 
 ## 使用说明
 
-进入[插件列表](/plugins/)选择需要的插件。安装前请核对插件名称、版本和来源，优先使用官方商店或 GitHub Releases。
+进入[插件列表](/plugins/)选择需要的插件。安装前请核对插件名称、版本和来源，优先使用对应浏览器的官方扩展商店。

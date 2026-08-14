@@ -11,8 +11,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '插件', link: '/plugins/' },
-      { text: '更新日志', link: '/changelog/' },
-      { text: '发布指南', link: '/guide/release' }
+      { text: '更新日志', link: '/changelog/' }
     ],
     sidebar: {
       '/plugins/': [
@@ -20,7 +19,7 @@ export default defineConfig({
           text: '插件',
           items: [
             { text: '插件列表', link: '/plugins/' },
-            { text: '插件页面模板', link: '/plugins/template' }
+            { text: '股票基金管家', link: '/plugins/stock-funds-extend' }
           ]
         }
       ],
@@ -29,15 +28,7 @@ export default defineConfig({
           text: '更新日志',
           items: [
             { text: '日志索引', link: '/changelog/' },
-            { text: '日志模板', link: '/changelog/template' }
-          ]
-        }
-      ],
-      '/guide/': [
-        {
-          text: '维护指南',
-          items: [
-            { text: '发布新版本', link: '/guide/release' }
+            { text: '股票基金管家', link: '/changelog/stock-funds-extend' }
           ]
         }
       ]
