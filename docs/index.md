@@ -11,7 +11,7 @@ hero:
       link: /plugins/stock-funds-extend
     - theme: alt
       text: 更新日志
-      link: /changelog/
+      link: /plugins/stock-funds-extend#changelog
 
 features:
   - title: 统一下载
