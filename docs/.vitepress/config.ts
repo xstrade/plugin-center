@@ -2,24 +2,23 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Plugin Center',
-  description: '插件下载、安装说明与更新日志',
+  title: 'XSTrade Project Center',
+  description: 'XSTrade 项目与工具发布中心',
   base: '/plugin-center/',
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '股票基金管家', link: '/plugins/stock-funds-extend' },
-      { text: '股票基金助手', link: '/plugins/stock-fund-assistant' },
-      { text: '插件', link: '/plugins/' }
+      { text: '项目', link: '/plugins/' },
+      { text: 'GitHub', link: 'https://github.com/xstrade' }
     ],
     sidebar: {
       '/plugins/': [
         {
-          text: '插件',
+          text: '项目',
           items: [
-            { text: '插件列表', link: '/plugins/' },
+            { text: '项目列表', link: '/plugins/' },
             { text: '股票基金管家', link: '/plugins/stock-funds-extend' },
             { text: '股票基金助手', link: '/plugins/stock-fund-assistant' }
           ]
@@ -34,7 +33,7 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页'
     },
     footer: {
-      message: '插件下载、安装与版本记录',
+      message: '项目发布、下载与版本记录',
       copyright: 'Copyright © 2026 xstrade'
     },
     lastUpdated: {
