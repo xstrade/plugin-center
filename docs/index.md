@@ -9,9 +9,6 @@ hero:
     - theme: brand
       text: 浏览全部项目
       link: /plugins/
-    - theme: alt
-      text: GitHub
-      link: https://github.com/xstrade
 ---
 
 <div class="home-projects-intro">
