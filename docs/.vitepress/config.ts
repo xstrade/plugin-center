@@ -10,8 +10,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '项目', link: '/plugins/' },
-      { text: 'GitHub', link: 'https://github.com/xstrade' }
+      { text: '项目', link: '/plugins/' }
     ],
     sidebar: {
       '/plugins/': [
@@ -24,13 +23,6 @@ export default defineConfig({
           ]
         }
       ]
-    },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/xstrade/plugin-center' }
-    ],
-    editLink: {
-      pattern: 'https://github.com/xstrade/plugin-center/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页'
     },
     footer: {
       message: '项目发布、下载与版本记录',
