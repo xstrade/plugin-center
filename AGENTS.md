@@ -27,6 +27,11 @@ It is a public-facing site. Keep all content suitable for public release and mai
    - Versions, release dates, download links, supported browsers/platforms, features, and changelog entries must come from explicit project information.
    - If information is unavailable, omit it or mark it clearly instead of guessing.
 
+5. **Keep repository/hosting platform branding out of the public website UI.**
+   - This site should present itself as an independent personal product website.
+   - Do not add GitHub navigation items, social icons, repository links, "edit on GitHub" links, or similar hosting-platform branding to public pages.
+   - Infrastructure references may remain in internal maintenance files when they are necessary for development or deployment.
+
 ## Repository structure
 
 - `docs/index.md` — public homepage and featured/current project cards.
@@ -108,11 +113,12 @@ If a new CSS class is required, update `docs/.vitepress/theme/custom.css` and fo
 
 Do **not** add each product to the top navigation.
 
-The top navigation should remain focused on site-level destinations such as:
+The top navigation should remain focused on product-site destinations such as:
 
 - 首页
 - 项目
-- GitHub
+
+Do not expose repository or hosting-platform destinations in the public navigation.
 
 The project sidebar in `docs/.vitepress/config.ts` should include the new product so readers can move between project pages.
 
