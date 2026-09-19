@@ -13,3 +13,19 @@
   background: url('./assets/stock-funds-extend-logo.png') center / contain no-repeat;
   content: '';
 }
+
+.VPNavBarMenuLink[href$='/plugins/stock-fund-assistant'],
+.VPNavScreenMenuLink[href$='/plugins/stock-fund-assistant'] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.VPNavBarMenuLink[href$='/plugins/stock-fund-assistant']::before,
+.VPNavScreenMenuLink[href$='/plugins/stock-fund-assistant']::before {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background: url('./assets/stock-fund-assistant-logo.png') center / contain no-repeat;
+  content: '';
+}
